@@ -1,19 +1,9 @@
-import os
-import sys
-from json import load
-from time import sleep
-from typing import Dict
 from typing import List
 
-import requests
 from pyDataverse.api import NativeApi
-from pyDataverse.models import Datafile
-from pyDataverse.models import Dataset
-from pyDataverse.models import Dataverse
 from pyDataverse.utils import dataverse_tree_walker
-from pyDataverse.utils import read_file
-from pyDataverse.utils import read_json
-from pyDataverse.utils import write_json
+
+from Licenses.config import API_TOKEN, ROOT
 
 
 def remove_testdata(
@@ -27,7 +17,7 @@ def remove_testdata(
     It recursively collects all Dataverses and Datasets
     from a passed Dataverse down.
     """
-    api = NativeApi('http://portal.dev.odissei.nl', '95ece972-6e98-4239-806e-f225bb6585aa')
+    api = NativeApi(ROOT, API_TOKEN)
 
     # Clean up
     # data_types = ["dataverses", "datasets"]
