@@ -10,7 +10,7 @@ def license_upload(filename):
 
     url = "%s/%s" % (ROOT, "api/licenses")
     r = requests.post(url, data=open(filename, 'rb'), headers=headers)
-    print(r)
+    print(r.json())
 
 
 if len(sys.argv) > 1:
