@@ -3,7 +3,7 @@ from typing import List
 from pyDataverse.api import NativeApi
 from pyDataverse.utils import dataverse_tree_walker
 
-from Licenses.config import API_TOKEN, ROOT
+from config import API_TOKEN, ROOT
 
 
 def remove_testdata(
