@@ -2,4 +2,4 @@
 .DS_store
 
 # config file for license setup
-/dataverse_utils/Licenses/config.py
+/dataverse_utils/config.py
