@@ -1,3 +1,4 @@
+import argparse
 from typing import List
 
 from pyDataverse.api import NativeApi
@@ -34,8 +35,10 @@ def remove_testdata(
         api.delete_dataverse(dv["dataverse_alias"])
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    remove_testdata('cbs')
+parser = argparse.ArgumentParser(
+    description="Remove all dataverses and datasets from a dataverse")
+parser.add_argument('--dataverse', type=str, dest='dataverse',
+                    help='The dataverse alias')
+args = parser.parse_args()
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+remove_testdata(args.dataverse)
