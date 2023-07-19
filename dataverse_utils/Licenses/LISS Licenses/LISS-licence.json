@@ -3,5 +3,6 @@
   "name": "LISS Licence",
   "shortDescription": "DANS Managed Access Licence - User Identity Known",
   "iconUrl": "",
-  "active": true
+  "active": true,
+  "sortOrder": 3
 }

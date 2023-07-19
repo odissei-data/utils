@@ -3,5 +3,6 @@
   "name": "CERN-OHL-1.1",
   "shortDescription": "CERN Open Hardware Licence Version 1.1",
   "iconUrl": "",
-  "active": true
+  "active": true,
+  "sortOrder": 9
 }

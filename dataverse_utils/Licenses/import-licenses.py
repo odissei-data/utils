@@ -1,7 +1,7 @@
 import sys
 import os
 import requests
-from config import *
+from config import API_TOKEN, ROOT
 
 
 def license_upload(filename):

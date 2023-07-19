@@ -3,5 +3,6 @@
   "name": "Apache-2.0",
   "shortDescription": "Apache License Version 2.0",
   "iconUrl": "",
-  "active": true
+  "active": true,
+  "sortOrder": 6
 }

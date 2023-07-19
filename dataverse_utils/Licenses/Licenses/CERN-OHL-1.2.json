@@ -3,5 +3,6 @@
   "name": "CERN-OHL-1.2",
   "shortDescription": "CERN-OHL-1.2",
   "iconUrl": "",
-  "active": true
+  "active": true,
+  "sortOrder": 10
 }

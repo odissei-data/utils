@@ -3,5 +3,6 @@
   "name": "CeCILL-B_V1",
   "shortDescription": "CeCILL Free Software license agreement Version 1.0",
   "iconUrl": "",
-  "active": true
+  "active": true,
+  "sortOrder": 15
 }

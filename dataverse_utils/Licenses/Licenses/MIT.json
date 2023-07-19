@@ -3,5 +3,6 @@
   "name": "MIT",
   "shortDescription": "MIT",
   "iconUrl": "",
-  "active": true
+  "active": true,
+  "sortOrder": 26
 }

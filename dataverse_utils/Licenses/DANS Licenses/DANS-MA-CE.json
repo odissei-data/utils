@@ -3,5 +3,6 @@
   "name": "DANS MA CE Licence",
   "shortDescription": "DANS Managed Access Licence - Application in Controlled Environment",
   "iconUrl": "",
-  "active": true
+  "active": true,
+  "sortOrder": 5
 }

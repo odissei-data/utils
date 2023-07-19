@@ -3,5 +3,6 @@
   "name": "BSD-3-Clause",
   "shortDescription": "Modified BSD License",
   "iconUrl": "",
-  "active": true
+  "active": true,
+  "sortOrder": 8
 }
