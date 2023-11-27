@@ -8,14 +8,14 @@ from config import API_TOKEN, ROOT
 
 
 def remove_testdata(
-    parent: str,
-    data_types: List[str] = ["dataverses", "datasets"],
-    parent_data_type: str = "dataverse",
-    remove_parent: bool = False,
+        parent: str,
+        data_types: List[str] = ["dataverses", "datasets"],
+        parent_data_type: str = "dataverse",
+        remove_parent: bool = False,
 ) -> None:
-    """Remove testdata.
-    Removes all data.
-    It recursively collects all Dataverses and Datasets
+    """
+    Remove testdata. Removes all data.
+    It recursively collects all dataverses and Datasets
     from a passed Dataverse down.
     """
     api = NativeApi(ROOT, API_TOKEN)

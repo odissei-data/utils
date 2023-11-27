@@ -3,7 +3,7 @@ import argparse
 from pyDataverse.api import NativeApi
 from extract_dataverse_ids import extract_dataverse_ids
 
-parser = argparse.ArgumentParser(description="Publish all datasets inside a given dataverse")
+parser = argparse.ArgumentParser(description="Publish all unpublished datasets inside a given dataverse")
 parser.add_argument('--dataverse', type=str, dest='dataverse_url', help='The dataverse url, FQDN format')
 parser.add_argument('--token', type=str, dest='dataverse_token', help='The dataverse API token')
 parser.add_argument('--dataverse_parent', type=str, dest='dataverse_parent', help='The Dataverse identifier')

@@ -29,5 +29,5 @@ def reformat_doi(unstructured_doi):
 
 
 if __name__ == '__main__':
-    extract_dataverse_ids(ROOT, 'easy',
+    extract_dataverse_ids(ROOT, 'fill in your subverse alias here',
                           API_TOKEN)

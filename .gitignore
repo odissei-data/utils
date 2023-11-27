@@ -3,3 +3,6 @@
 
 # config file for license setup
 /dataverse_utils/config.py
+
+# liss specific utils
+/liss_utils
