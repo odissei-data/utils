@@ -18,6 +18,11 @@ def remove_testdata(
     It recursively collects all dataverses and Datasets
     from a passed Dataverse down.
     """
+
+    if ROOT == "https://portal.odissei.nl":
+        print("Target is production portal, exiting script.")
+        return
+
     api = NativeApi(ROOT, API_TOKEN)
 
     # Clean up
