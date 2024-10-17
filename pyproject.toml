@@ -9,6 +9,9 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 requests = "^2.32.3"
+pydataverse = "^0.3.3"
+sickle = "^0.7.0"
+xmltodict = "^0.13.0"
 
 
 [build-system]
